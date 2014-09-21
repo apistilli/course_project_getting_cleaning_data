@@ -1,5 +1,3 @@
-# The following codebook describe the files and the data used in this assignment and how they have been transformed during the process
-
 Input files:
 "UCI HAR Dataset/test/X_test.txt": contains the activity data of the test group
 "UCI HAR Dataset/test/y_test.txt": contains the activity type for each entry
@@ -21,3 +19,103 @@ I edited the columns name following the tidy requirements
 
 I generated the new dataset by calculating the mean for each type,subject group.
 I saved the resulting dataset as "tidy.txt"
+
+Below a description of resulting data:
+All variables are normalized and bounded within [-1,1].
+
+subject: the subject associated with a given activity
+type: type of activity the observation is referring to (Walking, standing, etc)
+
+body acceleration mean for XYZ Axis
+timebodyaccelerationmeanx
+timebodyaccelerationmeany
+timebodyaccelerationmeanz
+
+body acceleration Standard Deviation for XYZ Axis
+timebodyaccelerationstdx
+timebodyaccelerationstdy
+timebodyaccelerationstdz
+
+Gravity acceleration mean for XYZ Axis
+timegravityaccelerationmeanx
+timegravityaccelerationmeany
+timegravityaccelerationmeanz
+
+
+Gravity acceleration Standard Deviation for XYZ Axis
+timegravityaccelerationstdx
+timegravityaccelerationstdy
+timegravityaccelerationstdz
+
+Jerk Signal for Body acceleration mean for XYZ Axis
+timebodyaccelerationjerkmeanx
+timebodyaccelerationjerkmeany
+timebodyaccelerationjerkmeanz
+
+
+Jerk Signal for Body acceleration Standard Deviation for XYZ Axis
+timebodyaccelerationjerkstdx
+timebodyaccelerationjerkstdy
+timebodyaccelerationjerkstdz
+
+Gyro Body mean for XYZ Axis
+timebodygyromeanx
+timebodygyromeany
+timebodygyromeanz
+
+
+Gyro Body Standard Deviation for XYZ Axis
+timebodygyrostdx
+timebodygyrostdy
+timebodygyrostdz
+
+
+Gyro Body Jerk mean for XYZ Axis
+timebodygyrojerkmeanx
+timebodygyrojerkmeany
+timebodygyrojerkmeanz
+
+
+Gyro Body Jerk Standard Deviation for XYZ Axis
+timebodygyrojerkstdx
+timebodygyrojerkstdy
+timebodygyrojerkstdz
+
+Time Body Acceleration mean and STD for XYZ Axis
+timebodyaccelerationmagmean
+timebodyaccelerationmagstd
+timegravityaccelerationmagmean
+timegravityaccelerationmagstd
+
+timebodyaccelerationjerkmagmean
+timebodyaccelerationjerkmagstd
+timebodygyromagmean
+timebodygyromagstd
+timebodygyrojerkmagmean
+timebodygyrojerkmagstd
+frequencybodyaccelerationmeanx
+frequencybodyaccelerationmeany
+frequencybodyaccelerationmeanz
+frequencybodyaccelerationstdx
+frequencybodyaccelerationstdy
+frequencybodyaccelerationstdz
+frequencybodyaccelerationjerkmeanx
+frequencybodyaccelerationjerkmeany
+frequencybodyaccelerationjerkmeanz
+frequencybodyaccelerationjerkstdx
+frequencybodyaccelerationjerkstdy
+frequencybodyaccelerationjerkstdz
+frequencybodygyromeanx
+frequencybodygyromeany
+frequencybodygyromeanz
+frequencybodygyrostdx
+frequencybodygyrostdy
+frequencybodygyrostdz
+frequencybodyaccelerationmagmean
+frequencybodyaccelerationmagstd
+frequencybodybodyaccelerationjerkmagmean
+frequencybodybodyaccelerationjerkmagstd
+frequencybodybodygyromagmean
+frequencybodybodygyromagstd
+frequencybodybodygyrojerkmagmean
+frequencybodybodygyrojerkmagstd

@@ -1,9 +1,9 @@
-this repository contains 4 files:
+These repository include the following files:
 
-run_analysis.R: the script that process the files and create a resulting tidy dataset containing the mean of each measurement by type/subject.
+README.md: this file
+tidy.txt: a sample of the resulting dataset
+CodeBook.md: a description of the transformation and the variables
+run_analysis.R: the R script that produce the transformation
 
-CodeBook.md: the codebook describing the steps necessary to reproduce the analysis
 
-Readme.md: this file
-
-tidy.txt: the result of run_analysis.R
+run_analysis.R must be in the same folder of the input data and will generate a tidy.txt dataset as result
