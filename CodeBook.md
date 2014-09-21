@@ -1,11 +1,11 @@
-Input files:
-"UCI HAR Dataset/test/X_test.txt": contains the activity data of the test group
-"UCI HAR Dataset/test/y_test.txt": contains the activity type for each entry
-"UCI HAR Dataset/test/subject_test.txt": contains the subject id for each entry of the activity data
-"UCI HAR Dataset/train/X_train.txt": contains the activity data for the train group
-"UCI HAR Dataset/train/y_train.txt": contains the activity type for each entry of the activity data of the train group
-"UCI HAR Dataset/train/subject_train.txt": contains the subject id for each entry of the activity data of the train group
-"UCI HAR Dataset/features.txt": contains the names of the features for the activity data
+# Input files:
+1) "UCI HAR Dataset/test/X_test.txt": contains the activity data of the test group
+2) "UCI HAR Dataset/test/y_test.txt": contains the activity type for each entry
+3) "UCI HAR Dataset/test/subject_test.txt": contains the subject id for each entry of the activity data
+4) "UCI HAR Dataset/train/X_train.txt": contains the activity data for the train group
+5) "UCI HAR Dataset/train/y_train.txt": contains the activity type for each entry of the activity data of the train group
+6) "UCI HAR Dataset/train/subject_train.txt": contains the subject id for each entry of the activity data of the train group
+7) "UCI HAR Dataset/features.txt": contains the names of the features for the activity data
 
 The data has been aggregated by merging (with Rbind) type, subject and data and then by merging (cbind) the 3 resulting datasets
 
@@ -20,7 +20,7 @@ I edited the columns name following the tidy requirements
 I generated the new dataset by calculating the mean for each type,subject group.
 I saved the resulting dataset as "tidy.txt"
 
-Below a description of resulting data:
+# Below a description of resulting data:
 All variables are normalized and bounded within [-1,1].
 
 subject: the subject associated with a given activity
